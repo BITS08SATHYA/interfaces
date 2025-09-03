@@ -22,6 +22,10 @@ func main() {
 	}
 
 	fmt.Println(<-c)
+	fmt.Println(<-c)
+	fmt.Println(<-c)
+	fmt.Println(<-c)
+	fmt.Println(<-c)
 }
 
 func checkLink(link string, c chan string) {
